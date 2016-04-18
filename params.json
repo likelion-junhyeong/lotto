@@ -1,0 +1,6 @@
+{
+  "name": "Lotto",
+  "tagline": "home_controller.rb",
+  "body": "class HomeController < ApplicationController\r\n    def index\r\n       \r\n        @numbers = (1..45).to_a\r\n        @lotto_numbers = @numbers.sample(6).sort\r\n        @lotto_picture = \"lotto.jpg\"\r\n    end\r\nend\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
